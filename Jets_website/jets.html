@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jets Search</title>
+
+  <!-- Connect CSS -->
+  <link rel="stylesheet" href="jets.css">
+</head>
+<header>
+
+</header>
+
+<body>
+
+  <h1>Welcome to the Jets Search!</h1>
+  <h2><b>DISCLAIMER: this is a completely fan made site, the Jets are not affiliated with this site!</b></h2>
+  <h2><b>How it works:</b></h2>
+  <p>1.) Pick if you want to search based on nicknames, player numbers, or last names<br>
+  2.) Enter info based on what you option you chose previously<br>
+  3.) Press <b>ENTER</b> to display the information</p>
+  <h3>RULES: Have fun and GO JETS GO!</h3>
+  <h3>Select a category:</h3>
+  <select id = "modes">
+      <option value="default">Categories</option>
+      <option value="Numbers">Numbers</option>
+      <option value="Last Names">Last Names</option>
+      <option value="Nicknames">Nicknames</option>
+    </select>
+    <br><br>
+
+    <!-- Number dropdown (hidden by default) -->
+<select id="numberSelect" style="display:none;">
+    <option value="default">Choose a #</option>
+  </select>
+  
+  <!-- Last name input (hidden by default) -->
+  <input type="text" id="lastNameInput" placeholder="Enter last name" style="display:none;">
+  
+  <!-- Nickname input (hidden by default) -->
+  <input type="text" id="nicknameInput" placeholder="Enter nickname" style="display:none;">
+   <br>
+  
+  <button id="Search" style="display:none;">Search</button>
+
+  <div id="result"></div> <!--might not need this!-->
+
+
+  <script src="players.js"></script>
+  <script src="jets.js"></script> 
+</body>
+
+<footer>
+
+</footer>
+</html>
+      
