@@ -4,7 +4,7 @@
 
 A fan-made Winnipeg Jets player search website that allows users to look up players based on their **jersey number, last name, or nickname**.
 
-> **Disclaimer:** This is a completely fan-made project and is not affiliated with, sponsored by, or endorsed by the Winnipeg Jets or True North Sports & Entertainment.
+> **Disclaimer:** This is a completely fan-made project and is not affiliated with, sponsored by, or endorsed by the Winnipeg Jets or True North Sports & Entertainment. This project is a work in progress, it is not complete so not everything works 100% perfectly. 
 
 ## Features
 
